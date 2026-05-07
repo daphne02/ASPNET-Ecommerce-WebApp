@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Keep only the provider you use, for example: -->
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.0" />
+    <!-- Pomelo.EntityFrameworkCore.MySql is used for MySQL support; the other two are official Microsoft packages for SQLite and SQL Server -->
+  </ItemGroup>
+</Project>
